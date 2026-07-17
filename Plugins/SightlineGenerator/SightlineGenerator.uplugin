@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Sightline Generator",
+  "Description": "Python-based synthetic gaze scene generation and Unreal MCP tools.",
+  "Category": "Computer Vision",
+  "CreatedBy": "Josh Wilson",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "EnabledByDefault": false,
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "ToolsetRegistry",
+      "Enabled": true
+    }
+  ]
+}

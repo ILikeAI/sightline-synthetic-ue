@@ -1,0 +1,35 @@
+# Unreal generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/.browse.VC.db*
+
+# Local IDE and operating-system files
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+.DS_Store
+Thumbs.db
+
+# Generated datasets stay on external storage and never enter Git
+Data/
+Datasets/
+Exports/
+Renders/
+*.jsonl.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Keep deliberate documentation captures
+!Docs/Images/
+!Docs/Images/**
